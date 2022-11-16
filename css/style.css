@@ -1,5 +1,4 @@
 body {
-    margin: 0px;
     display: flex;
     justify-content: center;
     font-family: 'Roboto Condensed', sans-serif;
@@ -29,6 +28,7 @@ button {
     padding: 0;
     border: none;
     border-radius: 10px;
+    font-family: inherit;
     font-size: inherit;
 }
 
@@ -57,6 +57,7 @@ button {
 
 #clear {
     width: 210px;
+    font-size: 48px;
 }
 
 #btn-0 {
