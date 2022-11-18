@@ -43,12 +43,12 @@ button {
 
 .clear-btns {
     background-color: #d6d6d6;
-    color: #000;
+    color: #353535;
 }
 
 .clear-btns:hover {
     background-color: #ffffff88;
-    transition: 0.25s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 
 .num-btns {
@@ -58,7 +58,7 @@ button {
 
 .num-btns:hover {
     background-color: #ffffff55;
-    transition: 0.25s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 
 .operator-btns {
@@ -67,8 +67,8 @@ button {
 }
 
 .operator-btns:hover {
-    background-color: #FAA423dd;
-    transition: 0.25s ease-in-out;
+    background-color: #FAA423cc;
+    transition: 0.4s ease-in-out;
 }
 
 #clear {
