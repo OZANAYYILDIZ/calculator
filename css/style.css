@@ -36,9 +36,10 @@ button {
 .buttons {
     width: 430px;
     height: 550px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 4px;
 }
 
 .clear-btns {
@@ -75,9 +76,11 @@ button {
     width: 210px;
     font-size: 48px;
     border-radius: 50px;
+    grid-column: 1 / span 2;
 }
 
 #btn-0 {
     width: 210px;
     border-radius: 50px;
+    grid-column: 1 / span 2;
 }
