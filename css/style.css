@@ -28,7 +28,7 @@ button {
     margin: 0;
     padding: 0;
     border: none;
-    border-radius: 10px;
+    border-radius: 50%;
     font-family: inherit;
     font-size: inherit;
 }
@@ -46,9 +46,19 @@ button {
     color: #000;
 }
 
+.clear-btns:hover {
+    background-color: #ffffff88;
+    transition: 0.25s ease-in-out;
+}
+
 .num-btns {
     background-color: #404040;
     color: #fff;
+}
+
+.num-btns:hover {
+    background-color: #ffffff55;
+    transition: 0.25s ease-in-out;
 }
 
 .operator-btns {
@@ -56,11 +66,18 @@ button {
     color: #fff;
 }
 
+.operator-btns:hover {
+    background-color: #FAA423dd;
+    transition: 0.25s ease-in-out;
+}
+
 #clear {
     width: 210px;
     font-size: 48px;
+    border-radius: 50px;
 }
 
 #btn-0 {
     width: 210px;
+    border-radius: 50px;
 }
